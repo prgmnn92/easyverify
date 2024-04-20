@@ -1913,10 +1913,12 @@ figcaption {
   background-color: var(--base-color-neutral--neutral-dark);
   border-style: none;
   border-radius: 0;
+  color: white;
 }
 
 .signup_input._2.is-textarea {
   height: 100px;
+  color: white;
 }
 
 .signup_input-wrapper {
