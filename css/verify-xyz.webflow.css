@@ -5,10 +5,10 @@
   --text-color--text-primary: var(--base-color-neutral--black);
   --blue: #4285f4;
   --border-color--border-primary: var(--base-color-neutral--black);
-  --base-color-neutral--white: white;
-  --base-color-neutral--black: black;
-  --orange: #ffab40;
-  --base-color-brand--black: black;
+  --base-color-neutral--white: rgb(0, 0, 0);
+  --base-color-neutral--black: rgb(255, 255, 255);
+  --orange: #4285f4;
+  --base-color-brand--black: rgba(68, 68, 68, 0);
   --black-archive\<deleted\|variable-dccb7db6\>: black;
   --background-color--background-secondary: var(--base-color-neutral--neutral-lightest);
   --link-color--link-alternate: var(--base-color-neutral--white);
@@ -285,7 +285,7 @@ figcaption {
 }
 
 .page-wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/bg.png');
+  /* background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/bg.png'); */
   background-position: 0 0, 50%;
   background-size: auto, auto;
   background-attachment: scroll, fixed;
@@ -730,7 +730,7 @@ figcaption {
 .button {
   border: 1px solid var(--blue);
   background-color: var(--blue);
-  color: var(--base-color-neutral--white);
+  color: var(--base-color-neutral--neutral-lightest);
   text-align: center;
   border-radius: 8px;
   padding: .75rem 1.5rem;
@@ -1733,7 +1733,7 @@ figcaption {
 
 .testimonial3_content {
   text-align: center;
-  background-color: rgba(26, 26, 26, .8);
+  background-color: rgba(239, 239, 239, 0.8);
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -1872,8 +1872,8 @@ figcaption {
 }
 
 .body-sign-up {
-  background-color: var(--background-color--background-primary);
-  color: var(--text-color--text-primary);
+  /* background-color: var(--background-color--background-primary); */
+  /* color: var(--text-color--text-primary); */
 }
 
 .signup_image {
