@@ -1719,6 +1719,7 @@ figcaption {
   flex: none;
   align-self: flex-start;
   margin-right: .5rem;
+  color: black;
 }
 
 .testimonial3_component {
