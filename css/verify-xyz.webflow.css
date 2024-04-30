@@ -1562,7 +1562,7 @@ figcaption {
 }
 
 .menu-icon1_line-top {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .navbar1_link {
@@ -1630,7 +1630,7 @@ figcaption {
 }
 
 .menu-icon1_line-bottom {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .navbar1_dropdown-link {
@@ -2161,7 +2161,7 @@ figcaption {
   }
 
   .menu-icon1_line-top {
-    background-color: var(--base-color-brand--white);
+    background-color: black;
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -2230,7 +2230,7 @@ figcaption {
   }
 
   .menu-icon1_line-bottom {
-    background-color: var(--base-color-brand--white);
+    background-color: black;
     width: 24px;
     height: 2px;
     padding-bottom: 0;
